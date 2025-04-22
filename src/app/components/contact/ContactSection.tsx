@@ -2,6 +2,7 @@
 
 import { MailOutlined, PhoneOutlined } from '@ant-design/icons';
 import Image from 'next/image';
+import { SocialIcons } from '../general/SocialIcons';
 
 export const ContactSection = () => {
   return (
@@ -64,40 +65,7 @@ export const ContactSection = () => {
             </p>
             <h4 className="font-semibold mt-6 mb-2">Follow Us</h4>
             <div className="flex gap-3 mt-2">
-              <a
-                href="https://www.instagram.com/unipro_jp?igsh=MW9ycWVpMmd2NXp1MA=="
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Instagram"
-              >
-                <img
-                  src="/icons/instagram.svg"
-                  alt="Instagram"
-                  className="w-5 h-5"
-                />
-              </a>
-              <a
-                href="mailto:info@uniproperty.co.jp"
-                aria-label="Email"
-              >
-                <img
-                  src="/icons/mail.svg"
-                  alt="Email"
-                  className="w-5 h-5"
-                />
-              </a>
-              <a
-                href="https://line.me/R/ti/p/@364oungl"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="LINE"
-              >
-                <img
-                  src="/icons/line.svg"
-                  alt="LINE"
-                  className="w-5 h-5"
-                />
-              </a>
+              <SocialIcons />
             </div>
           </div>
 
