@@ -14,8 +14,8 @@ export const Footer = () => {
         <div>
           <h4 className="font-semibold text-lg mb-2">聯絡方式</h4>
           <ul className="text-gray-300 space-y-1">
-            <li>地址：東京都港区南青山</li>
-            <li>電話：+81-3-1234-5678</li>
+            <li>地址：〒103-0024 東京都中央区日本橋小舟町8番6号 501</li>
+            <li>電話： 03-3527-3840</li>
             <li>Email：info@uniproperty.co.jp</li>
           </ul>
         </div>
