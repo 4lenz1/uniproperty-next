@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function LeasingSection() {
   return (
-    <section className="bg-white w-full py-12 md:py-24">
+    <section className="bg-white text-gray-800 py-16 px-6 md:px-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10">
         {/* 左側文字區塊 */}
         <div className="md:w-1/2">
